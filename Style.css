@@ -1,0 +1,84 @@
+
+
+body {
+    background-color: darkslategrey;
+}
+.card {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+p {
+    /* font-family: pace; */
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    line-height: 25px;
+}
+#p_content_2{
+width: 82%;
+/* font-size: 19px; */
+}
+
+.card {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 200px;
+    box-shadow: 0px 0px 7px gray;
+    padding: 25px 30px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+span, q{
+    color: #05445E;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+a {
+    color: #05445E;
+    font-weight: 600;
+    cursor: pointer;
+    /* padding-left: 10px; */
+}
+
+/*..............................main file..................*/
+
+
+
+.main_body{
+    background-color: white;
+    margin: 0;
+}
+
+
+
+
+img{
+    width: 100px;
+    height: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background: lightgray;
+}
+.nav_middle {
+    display: flex;
+    gap: 35px;
+    /* text-decoration: none; */
+}
+.nav_right {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+.nav_middle a {
+    text-decoration: none;
+    
+}
